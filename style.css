@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Tahoma;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* STYLING NAVBAR */
+.container nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #f6f6f6;
+    border-bottom: 1px solid #e0dfdf;
+}
+.container nav .logo{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.container nav .logo:hover{
+    color: rgb(2, 154, 255);
+    transition: 0.2s ease-out;
+}
+.container nav ul{
+    display: flex;
+}
+.container nav ul li{
+    padding: 10px;
+}
+.container nav ul li a{
+    font-size: 15px;
+    color: #000000;
+}
+.container nav ul li a:hover{
+    color:rgb(2, 154, 255);
+}
+/* STYLING HEADER */
+header{
+    text-align: center;
+    padding: 40px 20px;
+    background: #f6f6f6;
+    line-height: 40px;
+}
+header p{
+    font-size: 0.8em;
+}
+
+/* STYLING PART1 OF THE SECTION : Feautred */
+
+section .feaured{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin: 0 180px;
+    line-height: 30px;
+}
+section .feaured .content{
+    width: 280px;
+    margin: 0 20px;
+}
+section .feaured .content p{
+    color: #8d8d8d;
+}
+
+/* STYLING PART1 OF THE SECTION : ABOUT US */
+section .about-us{
+    background: #f6f6f6;
+    padding: 20px 230px;
+
+}
+section .about-us img{
+    width: 45%;
+}
+section .about-us .contenu{
+    width: 50%;
+    padding: 10px 0;
+    float: right;
+    line-height: 30px;
+}
+ h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+section .about-us .contenu p{
+    color: #636262;
+}
+section .numbers{
+    padding: 50px 230px;
+    display: flex;
+}
+section .numbers p{
+    background: #218c74;
+    color: #fff;
+    padding: 30px;
+    margin: 2%;
+    width: 300px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+section .numbers p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* STYLING SKILLS SECTION*/
+
+section .skills{
+    background: #f6f6f6;
+    padding: 50px 230px;
+    line-height: 30px;
+}
+section .skills h4{
+    text-align: center;
+}
+section .skills label{
+    position: relative;
+    top: 25px;
+    left: 16;
+    
+}
+section .skills div{
+    background: #333333;
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+    
+}
